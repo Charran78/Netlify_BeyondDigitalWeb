@@ -355,8 +355,8 @@ const App = () => {
       </main>
 
       <footer className="text-center mt-12 pb-8">
-        <p className="text-gray-600 dark:text-gray-400">
-          Hecho con ❤️ por Pedro Mencías - {new Date().getFullYear()}
+        <p className="text-blue-600 dark:text-blue-400">
+          Hecho en Asturias, España. Con ❤️ + {miles_de_errores} por Pedro Mencías - {new Date().getFullYear()}
         </p>
       </footer>
     </div>
