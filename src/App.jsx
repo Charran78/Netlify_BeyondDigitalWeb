@@ -3,6 +3,22 @@
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, User, Home } from 'lucide-react';
 
+// SVG BuyMeACoffee
+const BuyMeACoffee = ({ size = 40, className = "" }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 64 64"
+    fill="none"
+    className={className}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="64" height="64" rx="16" fill="#FFDD00"/>
+    <path d="M19 22h26l-2.5 20.5a7.5 7.5 0 01-7.5 6.5h-6a7.5 7.5 0 01-7.5-6.5L19 22z" stroke="#333" strokeWidth="2" fill="#fff"/>
+    <ellipse cx="32" cy="28" rx="12" ry="4" fill="#FFDD00" stroke="#333" strokeWidth="2"/>
+    <path d="M25 22a7 7 0 0114 0" stroke="#333" strokeWidth="2"/>
+  </svg>
+);
 // Datos de proyectos 
 const projectsData = [
   {
@@ -228,6 +244,16 @@ const App = () => {
               >
                 <Mail size={40} className="text-red-500 dark:text-red-400" />
                 <span className="font-medium text-gray-700 dark:text-gray-300">Email</span>
+              </a>
+              {/* Nuevo enlace BuyMeACoffee */}
+              <a
+                href="https://buymeacoffee.com/beyonddigiv"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-yellow-300 dark:border-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-900"
+              >
+                <BuyMeACoffee size={40} />
+                <span className="font-medium text-gray-700 dark:text-gray-300">Buy Me a Coffee</span>
               </a>
             </div>
           </div>
