@@ -222,7 +222,7 @@ const App = () => {
                 href="https://github.com/Charran78"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 min-w-[140px] backdrop-blur-sm"
+                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-white-300 dark:border-white-400 hover:bg-blue-50 dark:hover:bg-white-900"
               >
                 <Github size={40} className="text-gray-800 dark:text-gray-200" />
                 <span className="font-medium text-gray-700 dark:text-gray-300">GitHub</span>
@@ -232,7 +232,7 @@ const App = () => {
                 href="https://www.linkedin.com/in/pedro-menc%C3%ADas-68223336b/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 min-w-[140px] backdrop-blur-sm"
+                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-blue-300 dark:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900"
               >
                 <Linkedin size={40} className="text-blue-600 dark:text-blue-400" />
                 <span className="font-medium text-gray-700 dark:text-gray-300">LinkedIn</span>
@@ -240,7 +240,7 @@ const App = () => {
 
               <a
                 href="mailto:beyond.digital.web@gmail.com"
-                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 min-w-[140px] backdrop-blur-sm"
+                className="flex flex-col items-center gap-3 p-6 bg-white/90 dark:bg-gray-800/90 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-red-300 dark:border-red-400 hover:bg-red-50 dark:hover:bg-red-900"
               >
                 <Mail size={40} className="text-red-500 dark:text-red-400" />
                 <span className="font-medium text-gray-700 dark:text-gray-300">Email</span>
