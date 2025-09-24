@@ -273,7 +273,7 @@ const App = () => {
 
   return (
     <div className={`min-h-screen transition-all duration-500 ease-in-out ${currentBackground.light} dark:${currentBackground.dark} text-gray-800 dark:text-gray-200 font-sans p-4`}>
-      <nav className="p-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm shadow-lg rounded-full max-w-2xl mx-auto mb-8 flex justify-around border border-gray-200 dark:border-gray-700">
+      <nav className="p-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm shadow-lg rounded-full max-w-2xl w-full mx-auto mb-8 flex flex-wrap justify-around border border-gray-200 dark:border-gray-700 overflow-hidden">
         <button
           onClick={() => setActiveTab('inicio')}
           className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
