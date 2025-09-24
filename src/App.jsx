@@ -241,6 +241,15 @@ const App = () => {
                 Hola, soy <span className="text-blue-500">Pedro</span>
               </h1>
               <div className="w-32 h-1 bg-blue-500 mx-auto mb-8"></div>
+              {/* Foto de perfil responsiva y animada */}
+              <div className="flex justify-center mb-8">
+                <img
+                  src="https://i.postimg.cc/28W0fDTw/portfolio.png"
+                  alt="Foto de Pedro Mencías"
+                  className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg border-4 border-blue-500 transition-transform duration-300 hover:scale-105"
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
+              </div>
             </div>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
