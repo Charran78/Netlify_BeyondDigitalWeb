@@ -35,6 +35,7 @@ Técnico en sistemas con más de 18 años de experiencia, reinventándome como d
 - [GitHub](https://github.com/Charran78)
 - [LinkedIn](https://www.linkedin.com/in/pedro-menc%C3%ADas-68223336b/)
 - [Email](mailto:beyond.digital.web@gmail.com)
+- [Portfolio](https://pedromencias.netlify.app/)
 
 ---
 
