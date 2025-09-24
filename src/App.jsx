@@ -273,54 +273,55 @@ const App = () => {
 
   return (
     <div className={`min-h-screen transition-all duration-500 ease-in-out ${currentBackground.light} dark:${currentBackground.dark} text-gray-800 dark:text-gray-200 font-sans p-4`}>
-      <nav className="p-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm shadow-lg rounded-full max-w-2xl w-full mx-auto mb-8 flex flex-wrap justify-around border border-gray-200 dark:border-gray-700 overflow-hidden">
-        <button
-          onClick={() => setActiveTab('inicio')}
-          className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
-            activeTab === 'inicio' 
-              ? 'bg-blue-500 text-white shadow-lg' 
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-          }`}
-        >
-          <Home size={18} />
-          Inicio
-        </button>
-        
-        <button
-          onClick={() => setActiveTab('proyectos')}
-          className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
-            activeTab === 'proyectos' 
-              ? 'bg-blue-500 text-white shadow-lg' 
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-          }`}
-        >
-          <Github size={18} />
-          Proyectos
-        </button>
-        
-        <button
-          onClick={() => setActiveTab('bio')}
-          className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
-            activeTab === 'bio' 
-              ? 'bg-blue-500 text-white shadow-lg' 
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-          }`}
-        >
-          <User size={18} />
-          Bio
-        </button>
-        
-        <button
-          onClick={() => setActiveTab('contacto')}
-          className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
-            activeTab === 'contacto' 
-              ? 'bg-blue-500 text-white shadow-lg' 
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-          }`}
-        >
-          <Mail size={18} />
-          Contacto
-        </button>
+      <nav className="p-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm shadow-lg rounded-full max-w-2xl w-full mx-auto mb-8 border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div className="flex flex-wrap justify-center gap-4 mb-2">
+          <button
+            onClick={() => setActiveTab('inicio')}
+            className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
+              activeTab === 'inicio' 
+                ? 'bg-blue-500 text-white shadow-lg' 
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+            }`}
+          >
+            <Home size={18} />
+            Inicio
+          </button>
+          <button
+            onClick={() => setActiveTab('proyectos')}
+            className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
+              activeTab === 'proyectos' 
+                ? 'bg-blue-500 text-white shadow-lg' 
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+            }`}
+          >
+            <Github size={18} />
+            Proyectos
+          </button>
+        </div>
+        <div className="flex flex-wrap justify-center gap-4">
+          <button
+            onClick={() => setActiveTab('bio')}
+            className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
+              activeTab === 'bio' 
+                ? 'bg-blue-500 text-white shadow-lg' 
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+            }`}
+          >
+            <User size={18} />
+            Bio
+          </button>
+          <button
+            onClick={() => setActiveTab('contacto')}
+            className={`flex items-center gap-2 px-4 py-3 rounded-full font-medium transition-all duration-300 ${
+              activeTab === 'contacto' 
+                ? 'bg-blue-500 text-white shadow-lg' 
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+            }`}
+          >
+            <Mail size={18} />
+            Contacto
+          </button>
+        </div>
       </nav>
 
       <main className="container mx-auto p-6 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 min-h-[500px] transition-all duration-300">
