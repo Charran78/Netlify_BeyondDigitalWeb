@@ -252,7 +252,7 @@ const App = () => {
                         className="w-20 h-20 object-contain transition-transform group-hover:scale-110"
                       />
                     </div>
-                    <h4 className="font-semibold text-gray-800 dark:text-gray-200 text-center mb-2 line-clamp-2">
+                    <h4 className="font-semibold text-gray-800 dark:text-gray-200 text-center mb-2 line-clamp-3">
                       {cert.title}
                     </h4>
                     <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
@@ -354,8 +354,8 @@ const App = () => {
             </div>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              <span className="text-blue-500 font-semibold">.Oracle Cloud Infrastructure 2025 Generative AI Professional.</span> 
-              Con experiencia práctica en LLMs, RAG, Arquitecturas IA Enterprise. 
+              <span className="text-blue-500 font-semibold">.Oracle Cloud Infrastructure 2025 Generative AI Professional.</span>
+              <br>Con experiencia práctica en LLMs, RAG, Arquitecturas IA Enterprise.</br>
               Apasionado por crear soluciones de
               <span className="text-blue-500 font-semibold"> IA local </span> 
               y herramientas prácticas. Transformando ideas en código funcional.
