@@ -354,7 +354,7 @@ const App = () => {
             </div>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              <span className="text-blue-500 font-semibold">- Oracle Cloud Infrastructure 2025 Generative AI Professional -</span>
+              <span className="text-blue-500 font-semibold"> - Oracle Cloud Infrastructure 2025 Generative AI Professional - </span>
               Con experiencia práctica en LLMs, RAG, Arquitecturas IA Enterprise.
               Apasionado por crear soluciones de
               <span className="text-blue-500 font-semibold"> IA local </span> 
