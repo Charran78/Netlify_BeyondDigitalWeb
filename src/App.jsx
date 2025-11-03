@@ -354,7 +354,7 @@ const App = () => {
             </div>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              <span className="inline-block text-blue-500 font-semibold text-2xl md:text-3xl leading-tight break-words w-full text-center my-2">Oracle Cloud Infrastructure 2025 Generative AI Professional</span>
+              <span className="inline-block text-blue-500 font-semibold text-2xl md:text-2xl leading-tight break-words w-full text-center my-2">Oracle Cloud Infrastructure 2025 Generative AI Professional</span>
               Con experiencia práctica en LLMs, RAG, Arquitecturas IA Enterprise.
               Apasionado por crear soluciones de
               <span className="text-blue-500 font-semibold"> IA local </span> 
@@ -431,10 +431,24 @@ const App = () => {
         {renderContent()}
       </main>
 
-      <footer className="text-center mt-12 pb-8">
-        <p className="text-blue-600 dark:text-blue-800">
-          Hecho en Asturias, España. Con ❤️ y miles_de_errores por Pedro Mencías - {new Date().getFullYear()}
-        </p>
+      <footer className="mt-20 pb-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="flex flex-col items-center space-y-3">
+            <div className="flex items-center space-x-6 text-sm text-gray-500 dark:text-gray-400">
+              <span className="flex items-center space-x-1">
+                <span className="w-1 h-1 bg-blue-500 rounded-full"></span>
+                <span>Asturias, España</span>
+              </span>
+              <span>•</span>
+              <span>Hecho con <span className="text-red-500">❤️</span> por Pedro Mencías</span>
+              <span>•</span>
+              <span>{new Date().getFullYear()}</span>
+            </div>
+            <div className="text-xs text-gray-400 dark:text-gray-600 font-mono">
+              const passion = code + coffee + 1k_errors;
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
   );
