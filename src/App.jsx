@@ -192,6 +192,71 @@ const App = () => {
               </div>
             </div>
 
+            <div className="pt-8">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                🏆 Certificaciones
+              </h3>
+              <p className="text-gray-600 dark:text-gray-400">
+                Certificaciones Recientes
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                {
+                  id: 1,
+                  title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+                  issuer: "Oracle University",
+                  badgeImage: "https://raw.githubusercontent.com/Charran78/Charran78/main/GENAIPRO.png",
+                  url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=EE5B98B0A58BBD92899A5629FD22BBFE5F3CF33415D55CCFCDEF6B9C0FF50F11",
+                  date: "November 2025"
+                },
+                {
+                  id: 2,
+                  title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+                  issuer: "Oracle University",
+                  badgeImage: "https://raw.githubusercontent.com/Charran78/Charran78/main/OCI25FA.png",
+                  url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=EE5B98B0A58BBD92899A5629FD22BBFE5F3CF33415D55CCFCDEF6B9C0FF50F11",
+                  date: "October 2025"
+                },
+                {
+                  id: 3,
+                  title: "Python Avanzado",
+                  issuer: "Cursa - FreeCodeCamp",
+                  badgeImage: "https://i.postimg.cc/d3m84khD/PYY2.png",
+                  url: "https://cursa.app/es/mi-certificado/cert0b1d5b3b1ffa8d9fd26ae6bda3b73ae6",
+                  date: "September 2025"
+                }
+              ].map((cert) => (
+                <a
+                  key={cert.id}
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group bg-white/70 dark:bg-gray-800/70 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-200 dark:border-gray-700 backdrop-blur-sm hover:scale-105"
+                >
+                  <div className="p-4">
+                    <div className="flex justify-center mb-3">
+                      <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm text-center p-2 transition-transform group-hover:scale-110">
+                        {cert.issuer.split(' ')[0]}
+                      </div>
+                    </div>
+                    <h4 className="font-semibold text-gray-800 dark:text-gray-200 text-center mb-2 line-clamp-2">
+                      {cert.title}
+                    </h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
+                      {cert.issuer}
+                    </p>
+                    <p className="text-xs text-gray-500 dark:text-gray-500 text-center mt-2">
+                      {cert.date}
+                    </p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+
             <div className="text-center pt-6">
               <a 
                 href="https://github.com/Charran78" 
