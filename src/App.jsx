@@ -431,9 +431,9 @@ const App = () => {
         {renderContent()}
       </main>
 
-      <footer className="mt-16 pt-8 pb-6 border-t border-gray-200 dark:border-gray-800">
+      <footer className="mt-16 pt-8 pb-6 border-t border-blue-200 dark:border-blue-800">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          
             <div className="text-center md:text-center">
               <p className="text-blue-700 dark:text-blue-700 text-sm font-medium">
                 Hecho en Asturias, España
@@ -441,8 +441,8 @@ const App = () => {
               <p className="text-blue-800 dark:text-blue-800 text-lg mt-1">
                 © - Pedro Mencías - {new Date().getFullYear()}
               </p>
-            </div>            
-          </div>
+            </div>         
+          
         </div>
       </footer>
     </div>
