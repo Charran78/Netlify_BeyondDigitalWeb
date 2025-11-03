@@ -48,10 +48,10 @@ const projectsData = [
   {
     id: 4,
     title: 'Q/A Curator',
-    description: 'Aplicación en React para la creación de DataSets mediante validación',
+    description: 'Aplicación en React para la creación de DataSets mediante validación, para Fine Tuning de Modelos personalizados.',
     githubUrl: 'https://github.com/Charran78/QA_Curator_Dataset_ML_IA_Creator_Espanol',
     technologies: ['React', 'GeminiApi', 'Ollama'],
-    imageUrl: 'https://github.com/Charran78/QA_Curator_Dataset_ML_IA_Creator_Espanol/blob/main/qademo1.png' // ejemplo
+    imageUrl: 'https://i.postimg.cc/B63y6D9d/qademo1.gif' // ejemplo
   },
 ];
 
@@ -216,7 +216,7 @@ const App = () => {
                   id: 1,
                   title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
                   issuer: "Oracle University",
-                  badgeImage: "https://raw.githubusercontent.com/Charran78/Charran78/main/GENAIPRO.png",
+                  badgeImage: "https://i.postimg.cc/9M2SMT5K/GENAIPRO.gif",
                   url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=EE5B98B0A58BBD92899A5629FD22BBFE5F3CF33415D55CCFCDEF6B9C0FF50F11",
                   date: "November 2025"
                 },
@@ -224,7 +224,7 @@ const App = () => {
                   id: 2,
                   title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
                   issuer: "Oracle University",
-                  badgeImage: "https://raw.githubusercontent.com/Charran78/Charran78/main/OCI25FA.png",
+                  badgeImage: "https://i.postimg.cc/0Qv3QmR3/OCI25FA.gif",
                   url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=EE5B98B0A58BBD92899A5629FD22BBFE5F3CF33415D55CCFCDEF6B9C0FF50F11",
                   date: "October 2025"
                 },
@@ -232,7 +232,7 @@ const App = () => {
                   id: 3,
                   title: "Python Avanzado",
                   issuer: "Cursa - FreeCodeCamp",
-                  badgeImage: "https://i.postimg.cc/d3m84khD/PYY2.png",
+                  badgeImage: "https://i.postimg.cc/W3VK3rLH/PYY2.gif",
                   url: "https://cursa.app/es/mi-certificado/cert0b1d5b3b1ffa8d9fd26ae6bda3b73ae6",
                   date: "September 2025"
                 }
@@ -287,7 +287,7 @@ const App = () => {
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              ... ¿Tienes un proyecto? No me digas que es difícil, dime que es interesante ...
+              ¿Tienes un proyecto? No me digas que es difícil, dime que es interesante
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8 pt-8">
@@ -430,7 +430,7 @@ const App = () => {
       </main>
 
       <footer className="text-center mt-12 pb-8">
-        <p className="text-blue-600 dark:text-blue-400">
+        <p className="text-blue-600 dark:text-blue-800">
           Hecho en Asturias, España. Con ❤️ y miles_de_errores por Pedro Mencías - {new Date().getFullYear()}
         </p>
       </footer>
