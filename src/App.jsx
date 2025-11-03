@@ -45,6 +45,14 @@ const projectsData = [
     technologies: ['Python', 'Gradio', 'Ollama'],
     imageUrl: 'https://raw.githubusercontent.com/Charran78/asistente-ia-local/refs/heads/main/demo.gif' // ejemplo
   },
+  {
+    id: 4,
+    title: 'Q/A Curator',
+    description: 'Aplicación en React para la creación de DataSets mediante validación',
+    githubUrl: 'https://github.com/Charran78/QA_Curator_Dataset_ML_IA_Creator_Espanol',
+    technologies: ['React', 'GeminiApi', 'Ollama'],
+    imageUrl: 'https://github.com/Charran78/QA_Curator_Dataset_ML_IA_Creator_Espanol/blob/main/qademo1.png' // ejemplo
+  },
 ];
 
 // Configuración de fondos para cada pestaña
@@ -279,7 +287,7 @@ const App = () => {
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              ¿Tienes un proyecto interesante? ¡Hablemos!
+              ... ¿Tienes un proyecto? No me digas que es difícil, dime que es interesante ...
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8 pt-8">
@@ -344,7 +352,9 @@ const App = () => {
             </div>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              Desarrollador autodidacta apasionado por crear soluciones de 
+              Oracle Cloud Infrastructure 2025 Generative AI Professional. 
+              con experiencia práctica en LLMs, RAG, Arquitecturas IA Enterprise. 
+              Apasionado por crear soluciones de
               <span className="text-blue-500 font-semibold"> IA local </span> 
               y herramientas prácticas. Transformando ideas en código funcional.
             </p>
