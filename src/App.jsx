@@ -431,21 +431,22 @@ const App = () => {
         {renderContent()}
       </main>
 
-      <footer className="mt-20 pb-8">
+      <footer className="mt-16 pt-8 pb-6 border-t border-gray-200 dark:border-gray-800">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="flex flex-col items-center space-y-3">
-            <div className="flex items-center space-x-6 text-sm text-gray-500 dark:text-gray-400">
-              <span className="flex items-center space-x-1">
-                <span className="w-1 h-1 bg-blue-500 rounded-full"></span>
-                <span>Asturias, España</span>
-              </span>
-              <span>•</span>
-              <span>Hecho con <span className="text-red-500">❤️</span> por Pedro Mencías</span>
-              <span>•</span>
-              <span>{new Date().getFullYear()}</span>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-center md:text-left">
+              <p className="text-gray-600 dark:text-gray-400 text-sm font-medium">
+                Hecho en Asturias, España
+              </p>
+              <p className="text-gray-500 dark:text-gray-500 text-xs mt-1">
+                © - Pedro Mencías - {new Date().getFullYear()}
+              </p>
             </div>
-            <div className="text-xs text-gray-400 dark:text-gray-600 font-mono">
-              const passion = code + coffee + 1k_errors;
+            <div className="flex items-center space-x-2">
+              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+              <span className="text-xs text-gray-500 dark:text-gray-500">
+                Con 💻 + 🖱 +  miles_de_errores 
+              </span>
             </div>
           </div>
         </div>
